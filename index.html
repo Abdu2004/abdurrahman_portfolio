@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdurrahman Abdulazzeez - Portfolio</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="blob blob-1 animate-blob"></div>
+      <div class="blob blob-2 animate-blob animation-delay-2"></div>
+      <div class="blob blob-3 animate-blob animation-delay-4"></div>
+    </div>
+    
+    <div class="hero-content">
+      <div class="profile-container">
+        <div class="profile-wrapper">
+          <div class="profile-glow animate-pulse"></div>
+          <div class="profile-image-container">
+            <img 
+              src="port.jpg"
+              alt="Abdurrahman Abdulazzeez"
+              class="profile-image"
+            />
+          </div>
+          <div class="status-indicator animate-pulse"></div>
+        </div>
+      </div>
+      
+      <h1 class="gradient-text">Hi, I'm Abdurrahman Abdulazzeez</h1>
+      <h2>Final-year Computer Science Student & Front‑end‑focused Developer</h2>
+      <p class="hero-description">
+        I'm a final-year CS student and a "vibe coder" who prefers front-end development but also ships full-stack projects.
+        I build fast prototypes and production features using a mix of technologies (Java Script,Python, React),
+        and have experience with real-time apps (Socket.io), Firebase auth, and small ML integrations powered by external APIs.
+      </p>
+      
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="https://www.linkedin.com/in/abdurraman-abdul-azeez-34279a398" target="_blank" rel="noopener noreferrer" class="btn btn-outline" aria-label="Contact on LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.794-1.75-1.732s.784-1.732 1.75-1.732 1.75.794 1.75 1.732-.784 1.732-1.75 1.732zm13.5 11.268h-3v-5.604c0-1.337-.026-3.061-1.867-3.061-1.867 0-2.153 1.459-2.153 2.968v5.697h-3v-10h2.881v1.367h.041c.401-.758 1.379-1.556 2.839-1.556 3.036 0 3.6 2 3.6 4.59v5.599z"/>
+          </svg>
+          Contact Me
+        </a>
+      </div>
+      
+      <div class="social-links">
+  <a href="https://github.com/Abdu2004" target="_blank" rel="noopener noreferrer" class="social-link">
+    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+            <path d="M9 18c-4.51 2-5-2-7-2"/>
+          </svg>
+        </a>
+  <!-- WhatsApp removed from hero social links (kept in footer and hero CTA) -->
+  <a href="https://www.linkedin.com/in/abdurraman-abdul-azeez-34279a398" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.794-1.75-1.732s.784-1.732 1.75-1.732 1.75.794 1.75 1.732-.784 1.732-1.75 1.732zm13.5 11.268h-3v-5.604c0-1.337-.026-3.061-1.867-3.061-1.867 0-2.153 1.459-2.153 2.968v5.697h-3v-10h2.881v1.367h.041c.401-.758 1.379-1.556 2.839-1.556 3.036 0 3.6 2 3.6 4.59v5.599z"/>
+    </svg>
+  </a>
+      </div>
+    </div>
+    
+    <div class="scroll-indicator animate-bounce">
+      <svg class="icon-gray" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m6 9 6 6 6-6"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section-gradient-1">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title gradient-text">Featured Projects</h2>
+        <p class="section-description">
+          A selection of my recent work showcasing various technologies and problem-solving approaches
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md-grid-cols-2">
+        <!-- Project 1 -->
+        <div class="card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NjI0NjY5MjN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="AI Study Companion">
+            <div class="card-image-overlay"></div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">E-commerce AI Customer Support</h3>
+            <p class="card-description">An e-commerce platform integration that uses an external AI API and product embeddings to provide product-aware customer support and search assistance.</p>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">Flask</span>
+              <span class="tag">AI API</span>
+              <span class="tag">Embeddings</span>
+              <span class="tag">React</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1605108222700-0d605d9ebafe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzYyNDQ1NTcxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="TaskFlow Mobile App">
+            <div class="card-image-overlay"></div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">WhatsApp‑style Chat Clone</h3>
+            <p class="card-description">A real-time chat application built using Socket.io for live messaging and Firebase for authentication and persistence.</p>
+            <div class="tags">
+              <span class="tag">Socket.io</span>
+              <span class="tag">Firebase</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">React</span>
+              <span class="tag">CSS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNjA3fDB8MHxzZWFyY2h8Mnx8dGVsZWdyYW0lMjBob2xkZXIlMjBib3R8ZW58MHx8fHwxNjIwMDAwMDAw&ixlib=rb-4.0.3&q=80&w=1080" alt="Study Materials Bot">
+            <div class="card-image-overlay"></div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Study Materials Bot</h3>
+            <p class="card-description">A Telegram bot that collects files uploaded in configured group chats, stores metadata locally, and serves files to users via an inline menu. Built with Telegraf and Express; designed for webhook hosting (e.g., Render).</p>
+            <div class="tags">
+              <span class="tag">Node.js</span>
+              <span class="tag">Telegraf</span>
+              <span class="tag">Express</span>
+              <span class="tag">Webhooks</span>
+              <span class="tag">Render</span>
+            </div>
+            <div class="card-buttons">
+              <a href="https://github.com/Abdu2004/teleegram_bot" target="_blank" class="btn btn-ghost btn-sm">
+                <svg class="icon-sm" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+                  <path d="M9 18c-4.51 2-5-2-7-2"/>
+                </svg>
+                Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="card">
+          <div class="card-image">
+              <img src="https://plus.unsplash.com/premium_photo-1698421947122-2a10c252ec4e?q=80&w=465&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="FlowMate — Hydration Tracker Bot">
+            <div class="card-image-overlay"></div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">FlowMate — Hydration Tracker Bot</h3>
+            <p class="card-description">A Telegram bot that helps users set daily water goals, log intake, receive reminders, and view history. Built with Telegraf, Express webhooks, and scheduled tasks via node-cron; stores user data externally for persistence.</p>
+            <div class="tags">
+              <span class="tag">Node.js</span>
+              <span class="tag">Telegraf</span>
+              <span class="tag">node-cron</span>
+              <span class="tag">Express</span>
+              <span class="tag">JSON storage</span>
+            </div>
+            <div class="card-buttons">
+              <a href="https://github.com/Abdu2004/telegram_bot_health_checker" target="_blank" class="btn btn-ghost btn-sm">
+                <svg class="icon-sm" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+                  <path d="M9 18c-4.51 2-5-2-7-2"/>
+                </svg>
+                Code
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section-gradient-2">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title gradient-text">Skills & Technologies</h2>
+        <p class="section-description">
+          A diverse toolkit developed through coursework, personal projects, and continuous learning
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md-grid-cols-2 lg-grid-cols-4">
+        <!-- Skill 1 -->
+        <div class="card">
+          <div class="skill-card">
+            <div class="skill-icon icon-blue">
+              <svg class="icon-white" width="28" height="28" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="16 18 22 12 16 6"/>
+                <polyline points="8 6 2 12 8 18"/>
+              </svg>
+            </div>
+            <h3 class="skill-title">Frontend Development</h3>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <div class="skill-dot dot-blue"></div>
+                React
+              </li>
+              <li class="skill-item">
+                <div class="skill-dot dot-blue"></div>
+                TypeScript
+              </li>
+              <li class="skill-item">
+                <div class="skill-dot dot-blue"></div>
+                Tailwind CSS
+              </li>
+              <li class="skill-item">
+                <div class="skill-dot dot-blue"></div>
+                Next.js
+              </li>
+              <li class="skill-item">
+                <div class="skill-dot dot-blue"></div>
+                Vue.js
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Skill 2 -->
+        <div class="card">
+          <div class="skill-card">
+            <div class="skill-icon icon-purple">
+              <svg class="icon-white" width="28" height="28" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="4 17 10 11 4 5"/>
+                <line x1="12" x2="20" y1="19" y2="19"/>
+              </svg>
+            </div>
+            <h3 class="skill-title">Backend Development</h3>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <div class="skill-dot dot-purple"></div>
+                Node.js
+              </li>
+              <li class="skill-item">
+                <div class="skill-dot dot-purple"></div>
+                Python
+              </li>
+              <li class="skill-item">
+                <div class="skill-dot dot-purple"></div>
+                Express
+              </li>
+              <li class="skill-item">
+                <div class="skill-dot dot-purple"></div>
+                Flask
+              </li>
+              <li class="skill-item">
+                <div class="skill-dot dot-purple"></div>
+                REST APIs
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Skill 3 -->
+        <div class="card">
+          <div class="skill-card">
+            <div class="skill-icon icon-orange">
+              <svg class="icon-white" width="28" height="28" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                <path d="M3 5V19A9 3 0 0 0 21 19V5"/>
+                <path d="M3 12A9 3 0 0 0 21 12"/>
+              </svg>
+            </div>
+            <h3 class="skill-title">Databases & Tools</h3>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <div class="skill-dot dot-orange"></div>
+                PostgreSQL
+              </li>
+              <li class="skill-item">
+                <div class="skill-dot dot-orange"></div>
+                PHP
+              </li>
+              <li class="skill-item">
+                <div class="skill-dot dot-orange"></div>
+                MySQL
+              </li>
+              <li class="skill-item">
+                <div class="skill-dot dot-orange"></div>
+                Firebase
+              </li>
+              <li class="skill-item">
+                <div class="skill-dot dot-orange"></div>
+                Git
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+
+        <!-- Skill 4 -->
+        <div class="card">
+          <div class="skill-card">
+            <div class="skill-icon icon-green">
+              <svg class="icon-white" width="28" height="28" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 2a10 10 0 1 0 10 10H12V2Z"/>
+                <path d="M12 12v10a10 10 0 1 0 10-10H12Z"/>
+              </svg>
+            </div>
+            <h3 class="skill-title">Other Skills</h3>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <div class="skill-dot dot-green"></div>
+                Graphics Design
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Skill 5: No-code / Low-code Tools -->
+        <div class="card">
+          <div class="skill-card">
+            <div class="skill-icon icon-teal" style="background: linear-gradient(to right,#06b6d4,#14b8a6);">
+              <svg class="icon-white" width="28" height="28" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                <path d="M7 12h10M7 16h6"/>
+              </svg>
+            </div>
+            <h3 class="skill-title">No-code / Low-code Tools</h3>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <div class="skill-dot" style="width:.375rem;height:.375rem;border-radius:50%;background:linear-gradient(to right,#06b6d4,#14b8a6);"></div>
+                Vercel
+              </li>
+              <li class="skill-item">
+                <div class="skill-dot" style="width:.375rem;height:.375rem;border-radius:50%;background:linear-gradient(to right,#06b6d4,#14b8a6);"></div>
+                Netlify
+              </li>
+              <li class="skill-item">
+                <div class="skill-dot" style="width:.375rem;height:.375rem;border-radius:50%;background:linear-gradient(to right,#06b6d4,#14b8a6);"></div>
+                Lovable
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="footer">
+    <div class="footer-bg">
+      <div class="footer-blob footer-blob-1"></div>
+      <div class="footer-blob footer-blob-2"></div>
+    </div>
+    
+    <div class="footer-content">
+      <div class="footer-grid">
+        <div>
+          <h3 class="footer-title gradient-text">Abdurrahman Abdulazzeez</h3>
+          <p class="footer-text">
+            CS Student passionate about creating impactful software solutions
+          </p>
+        </div>
+        
+        <div>
+          <h4 class="footer-subtitle">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#projects" class="footer-link">Projects</a></li>
+            <li><a href="#skills" class="footer-link">Skills</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="footer-subtitle">Connect</h4>
+            <div class="footer-social">
+            <a href="https://github.com/Abdu2004" target="_blank" rel="noopener noreferrer" class="footer-social-link">
+              <svg class="icon-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+                <path d="M9 18c-4.51 2-5-2-7-2"/>
+              </svg>
+            </a>
+            <!-- Footer WhatsApp removed per user request; LinkedIn retained above -->
+            <a href="https://www.linkedin.com/in/abdurraman-abdul-azeez-34279a398" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="LinkedIn">
+              <svg class="icon-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.794-1.75-1.732s.784-1.732 1.75-1.732 1.75.794 1.75 1.732-.784 1.732-1.75 1.732zm13.5 11.268h-3v-5.604c0-1.337-.026-3.061-1.867-3.061-1.867 0-2.153 1.459-2.153 2.968v5.697h-3v-10h2.881v1.367h.041c.401-.758 1.379-1.556 2.839-1.556 3.036 0 3.6 2 3.6 4.59v5.599z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>
+          Made with 
+          <svg class="heart icon-sm animate-pulse" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+          </svg>
+          by Abdurrahman Abdulazzeez © 2025
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
